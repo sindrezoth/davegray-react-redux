@@ -1,12 +1,12 @@
-import './App.css';
-import Counter from './features/counter/Counter'
+//import Counter from './features/counter/Counter'
+import PostsList from './features/posts/PostList'
 
 function App() {
   return (
-    <div className="App">
-      <h1>App</h1>
-      <Counter />
-    </div>
+    <main>
+      {/*<Counter />*/}
+      <PostsList />
+    </main>
   );
 }
 
